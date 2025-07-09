@@ -5,12 +5,12 @@ version = "0.1.0"
 description = "Fetch PubMed papers with pharma/biotech authors"
 authors = ["Your Name <your.email@example.com>"]
 readme = "README.md"
-repository = "https://github.com/yourusername/pubmed-fetcher"
+repository = "https://github.com/iam-shreya-singh/Aganitha_TakehomeAssessment/tree/main/pubmed_fetcher"
 packages = [{include = "pubmed_fetcher"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-biopython = "^1.79"
+python = "3.12.1"
+biopython = "1.85"
 
 [tool.poetry.scripts]
 get-papers-list = "get_papers:get_papers_list"

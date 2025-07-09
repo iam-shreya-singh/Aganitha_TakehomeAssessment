@@ -15,7 +15,7 @@ def main():
     
     # Initialize fetcher
     fetcher = PubMedFetcher(
-        email="your.email@example.com",  # Replace with your email
+        email="shreyasinghin24@gmail.com",  # add your email id to access PubMed API
         debug=args.debug
     )
     
