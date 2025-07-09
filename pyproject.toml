@@ -1,5 +1,5 @@
 [project]
-name = "pubmed-cli"
+name = "pubmed_cli"
 version = "0.1.0"
 description = "CLI tool for fetching PubMed papers"
 authors = [
