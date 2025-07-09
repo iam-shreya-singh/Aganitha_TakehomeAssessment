@@ -1,7 +1,7 @@
 import click 
-from pubmed_cli.pubmed import fetch_pubmed
-from pubmed_cli.filters import is_non_academic
-from pubmed_cli.utils import save_papers
+from pubmed import fetch_pubmed
+from filters import is_non_academic
+from .import utils save_papers
 
 
 @click.group()
