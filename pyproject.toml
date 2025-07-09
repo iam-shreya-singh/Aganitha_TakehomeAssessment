@@ -1,20 +1,23 @@
+# pyproject.toml
 [tool.poetry]
-name = "aganitha-cli"
+name = "pubmed-fetcher"
 version = "0.1.0"
-description = "CLI tool for fetching PubMed papers"
-authors = [
-    {name = "Shreya"}
-]
-license = {text = "MIT"}
+description = "Fetch PubMed papers with pharma/biotech authors"
+authors = ["Your Name <your.email@example.com>"]
 readme = "README.md"
-requires-python = "requires-python = ">=3.11,<4.0"
-dependencies = [
-    "biopython (>=1.85,<2.0)",
-    "click (>=8.2.1,<9.0.0)",
-    "pandas (>=2.3.1,<3.0.0)",
-    "tqdm (>=4.67.1,<5.0.0)",
-]
-[tool.poetry.scripts]
-pubmed = "cli:cli"
+repository = "https://github.com/yourusername/pubmed-fetcher"
+packages = [{include = "pubmed_fetcher"}]
 
-packages = []
+[tool.poetry.dependencies]
+python = "^3.8"
+biopython = "^1.79"
+
+[tool.poetry.scripts]
+get-papers-list = "get_papers:get_papers_list"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.extras]
+test = ["pytest", "pytest-cov"]
