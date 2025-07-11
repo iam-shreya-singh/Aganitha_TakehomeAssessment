@@ -6,7 +6,7 @@ description = "Fetch PubMed papers with pharma/biotech authors"
 authors = ["Shreya shreyasinghin24@gmail.com"]
 readme = "README.md"
 repository = "https://github.com/iam-shreya-singh/Aganitha_TakehomeAssessment"
-packages = [{include = "pubmed_fetcher"}]
+packages = [{include = "pubmed-fetcher-shreya-v1"}]
 
 [tool.poetry.dependencies]
 python = "3.12.1"
