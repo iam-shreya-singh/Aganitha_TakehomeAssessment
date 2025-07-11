@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: TestPyPI
-      url: https://testpypi.org/p/pubmed-fetcher
+      url: https://testpypi.org/p/pubmed-fetcher-shreya-v1
     permissions:
       id-token: write  # IMPORTANT: This permission is required to publish to TestPyPI
     steps:
