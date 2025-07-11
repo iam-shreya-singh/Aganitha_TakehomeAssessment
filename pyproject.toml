@@ -3,7 +3,7 @@
 name = "pubmed-fetcher"
 version = "0.1.0"
 description = "Fetch PubMed papers with pharma/biotech authors"
-authors = ["Shreya Singh shreyasinghin24@gmail.com"]
+authors = ["Shreya shreyasinghin24@gmail.com"]
 readme = "README.md"
 repository = "https://github.com/iam-shreya-singh/Aganitha_TakehomeAssessment/tree/main/pubmed_fetcher"
 packages = [{include = "pubmed_fetcher"}]
